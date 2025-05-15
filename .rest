@@ -1,0 +1,31 @@
+### GET All Contacts
+GET http://localhost:8080/contacts
+Accept: application/json
+
+### GET Single Contact by ID
+GET http://localhost:8080/contacts/681bdf669f94facad4aa754a
+Accept: application/json
+
+### POST - Create a New Contact
+POST http://localhost:8080/contacts HTTP/1.1
+Content-Type: application/json
+
+ {
+  "firstName": "Lex",
+  "lastName": "Luthor",
+  "email": "lex.luthor@luthorcorp.com",
+  "favoriteColor": "Black",
+  "birthday": "1984-10-29"
+}
+
+### PUT - Update a Contact
+PUT http://localhost:8080/contacts/682571af921ac6d1ffdd8db8
+Content-Type: application/json
+
+{
+  "email": "lex12314@luthorcorp.com",
+  "favoriteColor": "Blue"
+}
+
+### DELETE - Remove a Contact
+DELETE http://localhost:8080/contacts/682571af921ac6d1ffdd8db8
