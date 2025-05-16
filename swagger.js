@@ -7,6 +7,12 @@ const doc = {
   },
   host: "cse341-hr72.onrender.com",
   schemes: ["http", "https"],
+  tags: [
+    {
+      name: "Contacts",
+      description: "Operations related to contacts",
+    },
+  ],
 };
 
 const outputFile = "./swagger.json";

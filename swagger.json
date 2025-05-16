@@ -7,6 +7,12 @@
   },
   "host": "cse341-hr72.onrender.com",
   "basePath": "/",
+  "tags": [
+    {
+      "name": "Contacts",
+      "description": "Operations related to contacts"
+    }
+  ],
   "schemes": [
     "http",
     "https"
